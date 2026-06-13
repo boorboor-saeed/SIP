@@ -33,8 +33,7 @@ int main(int argc, char *argv[])
   // DBenchmark_3 bench3(BaseDir);
   // bench3.View();
 
-  // string Address = BaseDir + "DetA/Alpha/OutputDir/Signal.csv";
-  // string Address = BaseDir + "DetD/Carbon-80MeV/OutputDir/Signal.csv";
+
   // string Address = BaseDir + "DetE/Calcium/760MeV/OhmicContact/Signal_SIP.csv";
   // PlotSignal(Address);
 
