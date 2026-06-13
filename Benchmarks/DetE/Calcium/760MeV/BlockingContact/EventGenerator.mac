@@ -1,0 +1,36 @@
+
+/control/verbose 2
+/run/verbose 2
+/tracking/verbose 0
+#
+
+/Material/DefineElement Au 79 196.977
+/Material/DefineMaterial Gold 19.3 1
+/Material/AddElementByNumber Gold Au 1
+
+/Material/DefineElement Al 13 26.98
+/Material/DefineMaterial Aluminium 2.7 1
+/Material/AddElementByNumber Aluminium Al 1
+
+/Material/DefineElement Si 14 28.0855
+/Material/DefineMaterial Silicon 2.7 1
+/Material/AddElementByNumber Silicon Si 1
+
+
+/run/initialize
+
+/Geometry/CreateDetector 5 100e-6 100e-6 0.300 Gold Aluminium Silicon
+
+#
+/run/setCut 1 nm
+#
+/gun/particle ion
+/gun/ion 20 40 20
+
+/gun/position 0 0 -1 um
+/gun/direction 0 0 +1
+/gun/energy 760 MeV
+
+
+/run/beamOn 2
+

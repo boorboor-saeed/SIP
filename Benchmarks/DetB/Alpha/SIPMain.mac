@@ -1,0 +1,29 @@
+
+# Detector features
+Thickness 447.
+BiasVoltage -100
+DepletionVoltage -9
+
+IrradiationContact BLOCKING
+Temprature 292.
+DynamicField ON
+ConcentrationMobility ON
+MeshDepth 3
+
+# input track 
+G4EventsFile G4Events.root
+EventID 1
+SuperChargeScale 10
+
+
+# refresh view
+ViewLimit -30 30 0 447.
+RefreshViewTime 10
+
+# save output files
+SaveOutputDir OutputDir
+SaveContinueTime 100
+
+
+
+

@@ -1,0 +1,31 @@
+
+# Detector features
+Thickness 300.
+BiasVoltage -140
+DepletionVoltage -132
+
+
+Temprature 293.
+DynamicField ON
+ConcentrationMobility ON
+
+MeshDepth 3
+
+# input track 
+#IrradiationContact OHMIC
+G4EventsFile G4Events.root
+EventID 1
+SuperChargeScale 500
+
+
+# refresh view
+ViewLimit -30 30 0 300.
+RefreshViewTime 10
+
+# save output files
+SaveOutputDir OutputDir
+SaveContinueTime 100
+
+
+
+
