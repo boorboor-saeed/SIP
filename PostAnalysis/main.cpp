@@ -19,8 +19,8 @@ void PlotSignal(string fAddress);
 
 int main(int argc, char *argv[])
 {
-  string BaseDir = "/media/saeed/share/Benchmarks/";
-  // string BaseDir = "../../Benchmarks/";
+  
+  string BaseDir = "../Benchmarks/";
 
   TApplication app("app", &argc, argv);
 
