@@ -21,5 +21,5 @@ Garfield++ is required to obtain physical data related to charge carrier transpo
 GEANT4 is employed to simulate primary ion tracks and to compute the spatial distribution of energy deposited within the detector’s active region.
 
 # Reference
-S. Boorboor, S. A. H. Feghhi, and H. Jafari, "Efficient modeling of plasma effect on the signal formation in planar silicon detectors," The European Physical Journal C, vol. 85, p. 1281, 2025/11/10 2025.
+S. Boorboor, et al, "Efficient modeling of plasma effect on the signal formation in planar silicon detectors," The European Physical Journal C, vol. 85, p. 1281, 2025/11/10 2025.
 https://link.springer.com/article/10.1140/epjc/s10052-025-14934-z
