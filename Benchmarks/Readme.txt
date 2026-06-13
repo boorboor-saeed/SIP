@@ -25,3 +25,14 @@ and ΔE−E methods between front and rear side injection in silicon detectors,�
 
 Description: This benchmark investigates the incidence of various heavy ions on both the front and rear sides of a detector. It includes simulations of DetE under multiple incident
 conditions.
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<Note>>>>>>>>
+Since SIP++ calculates the intrinsic current generated solely by electron–hole motion, the influence of the external readout circuitry is not included in
+the simulation itself and must be treated separately.
+
+To account for these effects, appropriate signal‑processing tools are provided in the PostAnalysis program. These tools model the electronics response and
+convert the simulated intrinsic signal into a waveform comparable to that recorded by a laboratory digitizer.
+
+Within the PostAnalysis program, three benchmark classes are implemented to process the signals and compare them with the corresponding experimental waveforms.
