@@ -4,7 +4,7 @@ SIP++  Semiconductor Ion Pulse Simulator (C++ Engine)
 <img width="270" height="270" alt="image" src="https://github.com/user-attachments/assets/9e8bed4f-59a6-41f8-816e-7548f3cefcf4" />
 
 # Project Manifesto
-SIP++ is a high-performance computational framework designed to simulate the transient charge induction and pulse shape evolution in semiconductor detectors, specifically under heavy-ion irradiation. It bridges the gap between raw physical interaction (energy deposition) and the final digitized electronic signal.
+SIP++ is a high‑performance simulation framework for modeling how signals form in silicon semiconductor detectors during heavy‑ion irradiation. It combines GEANT4 particle tracking with a custom charge‑transport engine that uses adaptive mesh refinement around dense ion tracks. This allows accurate simulation of plasma effects, electric‑field evolution, and signal formation in depleted and over‑depleted planar silicon detectors. Overall, SIP++ connects the initial energy deposition from particle interactions to the final digitized electronic signal, reproducing key features of experimentally observed waveforms.
 
 # Core Features
 •	Heavy Ion Dynamics: Modeling of high-density charge tracks and plasma column effects.bb
