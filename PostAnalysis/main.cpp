@@ -20,12 +20,12 @@ void PlotSignal(string fAddress);
 int main(int argc, char *argv[])
 {
   
-  string BaseDir = "../Benchmarks/";
+  string BaseDir = "../../Benchmarks/";
 
   TApplication app("app", &argc, argv);
 
-  // DBenchmark_1 bench1(BaseDir);
-  // bench1.View();
+  DBenchmark_1 bench1(BaseDir);
+  bench1.View();
 
   DBenchmark_2 bench2(BaseDir);
   bench2.View();
@@ -33,10 +33,9 @@ int main(int argc, char *argv[])
   // DBenchmark_3 bench3(BaseDir);
   // bench3.View();
 
-  // string Address = "/media/saeed/share/Benchmarks/DetA/Alpha/OutputDir/Signal.csv";
-  // string Address = "/media/saeed/share/Benchmarks/DetD/Carbon-80MeV/OutputDir/Signal.csv";
-  // string Address = "/media/saeed/share/Benchmarks/DetE/Calcium/760MeV/OhmicContact/Signal_SIP.csv";
-
+  // string Address = BaseDir + "DetA/Alpha/OutputDir/Signal.csv";
+  // string Address = BaseDir + "DetD/Carbon-80MeV/OutputDir/Signal.csv";
+  // string Address = BaseDir + "DetE/Calcium/760MeV/OhmicContact/Signal_SIP.csv";
   // PlotSignal(Address);
 
   app.Run();
