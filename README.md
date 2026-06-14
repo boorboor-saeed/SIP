@@ -1,5 +1,6 @@
-
+<p align="center">
 # SIP
+</p>
 
 <p align="center">
 SIP++  Semiconductor Ion Pulse Simulator (C++ Engine)
