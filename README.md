@@ -13,11 +13,11 @@ SIP++ is a high‑performance simulation framework for modeling how signals form
 *	C++ Efficiency: Optimized for speed, allowing for large-scale Monte Carlo integration.
 
 # Dependencies
-1.	ROOT
+1.	ROOT\
 The CERN-developed ROOT library is utilized for plotting, visualization, and file management functionalities.
-2.	Garfield++
+2.	Garfield++\
 Garfield++ is required to obtain physical data related to charge carrier transport, including parameters such as mobility.
-3.	GEANT4
+3.	GEANT4\
 GEANT4 is employed to simulate primary ion tracks and to compute the spatial distribution of energy deposited within the detector’s active region.
 
 # Reference
