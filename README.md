@@ -1,7 +1,7 @@
-<p align="center">
-# SIP
-*SIP++  Semiconductor Ion Pulse Simulator (C++ Engine)*
 
+# SIP
+SIP++  Semiconductor Ion Pulse Simulator (C++ Engine)
+<p align="center">
 <img width="270" height="270" alt="image" src="https://github.com/user-attachments/assets/9e8bed4f-59a6-41f8-816e-7548f3cefcf4" />
 </p>
 # Project Manifesto
