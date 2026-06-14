@@ -1,6 +1,9 @@
 
 # SIP
+
+<p align="center">
 SIP++  Semiconductor Ion Pulse Simulator (C++ Engine)
+</p>
 
 <p align="center">
 <img width="270" height="270" alt="image" src="https://github.com/user-attachments/assets/9e8bed4f-59a6-41f8-816e-7548f3cefcf4" />
