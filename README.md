@@ -1,4 +1,7 @@
 <p align="center" fontsize=40>
+  element { 
+  font-size: 75;
+}
 SIP
 </p>
 
