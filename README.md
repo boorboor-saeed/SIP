@@ -1,4 +1,4 @@
-<p align="center" font=18>
+<p align="center" font=40>
 SIP
 </p>
 
