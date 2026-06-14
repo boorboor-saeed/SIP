@@ -1,5 +1,5 @@
-<p align="center">
-**#SIP**
+<p align="center" font=18>
+SIP
 </p>
 
 <p align="center">
