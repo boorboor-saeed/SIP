@@ -28,3 +28,5 @@ GEANT4 is employed to simulate primary ion tracks and to compute the spatial dis
 # Reference
 S. Boorboor, et al, "Efficient modeling of plasma effect on the signal formation in planar silicon detectors," The European Physical Journal C, vol. 85, p. 1281, 2025/11/10 2025.
 https://link.springer.com/article/10.1140/epjc/s10052-025-14934-z
+
+S. Boorboor, "Evaluation of the adaptive nested mesh approach for simulating charge pulse shapes in planar silicon detectors irradiated by heavy ions", Scientific Reports, https://www.nature.com/articles/s41598-026-72562-3
